@@ -4,8 +4,6 @@ Your solution must run in O(log(m+n)) time."""
 
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
-        lenlt1 = len(nums1)
-        lenlt2 = len(nums2)
         mergedlt = nums1 + nums2
         mergedlt.sort()
 
