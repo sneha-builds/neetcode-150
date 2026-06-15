@@ -1,8 +1,8 @@
+#Array and Hashing: Encode Decode Strings
+
 """
 Design an algorithm to encode a list of strings to a string. The encoded string is then sent over the network and is decoded back to the original list of strings.
-
 Machine 1 (sender) has the function:
-
 String encode(List<String> strs) {
     // ... your code
     return encoded_string;
@@ -21,7 +21,8 @@ and Machine 2 does:
 List<String> decoded_strs = decode(encoded_string);
 decoded_strs in Machine 2 should be the same as the input strs in Machine 1.
 
-Implement the encode and decode methods."""
+Implement the encode and decode methods.
+"""
 
 
 class Solution:

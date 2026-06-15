@@ -1,5 +1,10 @@
-"""Problem:Given an integer array nums, return true if any value appears more than once in 
- the array, otherwise return false."""
+#  Array And Hashing : Contains Duplicate
+
+"""
+Problem:Given an integer array nums, return true if any value appears more than once in 
+the array, otherwise return false.
+"""
+
 # Time Complexity: O(n)
 # Space Complexity: O(n)
 

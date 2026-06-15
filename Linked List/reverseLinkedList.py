@@ -1,5 +1,7 @@
-"""Given the beginning of a singly linked list head, reverse the list, and return the new beginning of the list.
+#Linked List : Reverse Linked list
 
+"""
+Given the beginning of a singly linked list head, reverse the list, and return the new beginning of the list.
 """
 
 class Solution:

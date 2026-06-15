@@ -1,4 +1,8 @@
-"""Given the head of a linked list and an integer n, remove the nth node from the end of the list and return its head."""
+#Linked List : Remove Nth index from the end of the list
+
+"""
+Given the head of a linked list and an integer n, remove the nth node from the end of the list and return its head.
+"""
 
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
