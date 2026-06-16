@@ -1,4 +1,4 @@
-#Merge K Sorted Linked Lists
+# Merge K Sorted Linked Lists
 
 """
 You are given an array of k linked lists lists, where each list is sorted in ascending order.
