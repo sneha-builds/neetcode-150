@@ -14,6 +14,7 @@ Output: 3
 Exapmle 2:
 Input: root = [1,2,3]
 Output: 2
+
 """
 
 class Solution:
