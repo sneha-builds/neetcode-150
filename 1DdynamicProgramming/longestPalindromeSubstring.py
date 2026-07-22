@@ -1,0 +1,41 @@
+# Longest Palindrome Substring
+
+"""
+
+Given a string s, return the longest substring of s that is a palindrome.
+A palindrome is a string that reads the same forward and backward.
+If there are multiple palindromic substring that have the same length, return any of them.
+
+Constraints:
+  . 1 <= s.length <= 1000
+  . s contains only digits and English letters.
+
+"""
+
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+        
+        if len(s) <= 1:
+            return s
+        
+        start = 0
+        max_len = 0
+
+        def expand(left: int, right: int):
+            nonlocal start, max_len
+        
+            while left >= 0 and right < len(s) and s[left] == s[right]:
+                left -= 1
+                right += 1 
+        
+            current_len = right - left - 1
+            if current_len > max_len:
+                max_len = current_len
+                start = left + 1
+
+        for i in range(len(s)):
+            expand(i, i)  
+            expand(i, i + 1)
+
+        return s[start : start + max_len]
+
